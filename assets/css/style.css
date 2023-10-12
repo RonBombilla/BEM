@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav{
+    background-color: darkcyan;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav__logo{
+    height: 100%;
+    background-color: #fff;
+}
+
+.nav__img{
+    height: 100%;
+    border-radius: 50%;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
