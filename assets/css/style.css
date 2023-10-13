@@ -7,35 +7,3 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
-
-.nav{
-    background-color: darkcyan;
-    padding: 0.5rem;
-    height: 6rem;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.nav__logo{
-    height: 100%;
-    background-color: #fff;
-    border-radius: 50%;
-
-}
-
-.nav__img{
-    height: 100%;
-    background-color: darkcyan;
-    border-radius: 50%;
-}
-
-.nav__link{
-    color: #fff;
-    text-decoration: none;
-    margin-left: 2rem;
-}
-
-.nav__link--color{
-    color: #000;
-}

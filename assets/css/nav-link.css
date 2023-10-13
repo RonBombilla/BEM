@@ -1,0 +1,10 @@
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2rem;
+}
+
+.nav__link--color:hover{
+    transition: 250ms;
+    color: #000;
+}
