@@ -6,11 +6,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=7">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BEM</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:ital,wght@0,400;1,600&display=swap"
+        rel="stylesheet">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Navbar styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/navbar/nav.css">
     <link rel="stylesheet" href="assets/css/navbar/nav-logo.css">
     <link rel="stylesheet" href="assets/css/navbar/nav-img.css">
     <link rel="stylesheet" href="assets/css/navbar/nav-link.css">
+    <!-- Container styles -->
+    <link rel="stylesheet" href="assets/css/container/container.css">
+    <link rel="stylesheet" href="assets/css/container/container__cards.css">
+    <!-- Cards styles -->
+    <link rel="stylesheet" href="assets/css/cards/card.css">
+    <link rel="stylesheet" href="assets/css/cards/card__thumbnail.css">
+    <link rel="stylesheet" href="assets/css/cards/card__img.css">
+    <link rel="stylesheet" href="assets/css/cards/card__title.css">
+    <link rel="stylesheet" href="assets/css/cards/card__link.css">
+    <link rel="stylesheet" href="assets/css/cards/card__paragraph.css">
+    <!-- Buttons styles -->
+    <link rel="stylesheet" href="assets/css/Button/button.css">
+    <link rel="stylesheet" href="assets/css/Button/button__text.css">
+    <link rel="stylesheet" href="assets/css/Button/button__modifiers.css">
+    <!-- Phrase styles -->
+    <link rel="stylesheet" href="assets/css/Phrase/phrase.css">
 </head>
 
 <body>
@@ -27,6 +57,58 @@
             </div>
         </nav>
     </header>
+
+    <section class="container">
+        <div class="container__cards">
+            <div class="card">
+                <a class="card__thumbnail">
+                    <img class="card__img" src="assets/img/1.jpg" alt="">
+                </a>
+                <div class="card__text">
+                    <h3 class="card__title">
+                        <a class="card__link" href="#">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p class="card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora earum
+                        voluptates iure soluta nam atque voluptatum obcaecati, error expedita eligendi, magni mollitia
+                        pariatur ea fugit hic unde repudiandae et rerum?</p>
+
+                    <a class="button button--absolute" href="#">
+                        <span class="button__text">Ver más</span>
+                        <i class="button__icon fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+
+            <div class="card">
+                <a class="card__thumbnail">
+                    <img class="card__img" src="assets/img/1.jpg" alt="">
+                </a>
+                <div class="card__text">
+                    <h3 class="card__title">
+                        <a class="card__link" href="#">Lorem ipsum dolor sit amet.</a>
+                    </h3>
+                    <p class="card__paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora earum
+                        voluptates iure soluta nam atque voluptatum obcaecati, error expedita eligendi, magni mollitia
+                        pariatur ea fugit hic unde repudiandae et rerum?</p>
+
+                    <a class="button button--absolute" href="#">
+                        <span class="button__text">Ver más</span>
+                        <i class="button__icon fas fa-arrow-right"></i>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="phrase">
+            <h2 class="phrase__text"> Tempora earum voluptates iure soluta nam atque voluptatum obcaecati</h2>
+            <a class="button button--green" role="button" href="#">
+                <span class="button__text">Comprar</span>
+                <i class="fas fa-shopping-cart"></i>
+            </a>
+        </div>
+    </section>
 </body>
 
 </html>

@@ -1,0 +1,20 @@
+.button{
+    border: none;
+    min-width: 11.25rem;
+    height: 3.125rem;
+    padding: 0 1.875rem;
+    color: #FFF;
+    display: inline-block;
+    border-radius: 6.25rem;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403CC2;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background: #1B1881;
+    text-decoration: none;
+}

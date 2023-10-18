@@ -1,0 +1,9 @@
+.card {
+    background: #FFF;
+    border-radius: 0.625rem;
+    padding: 1.25rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 3.125rem;
+}
